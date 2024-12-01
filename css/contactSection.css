@@ -1,0 +1,72 @@
+.contact-section {
+    background-color: #2a2d54;
+    padding: 2.5em 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+    text-decoration: none;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.column-one {
+    flex: 1;
+}
+
+.column-two {
+    flex: 1;
+}
+
+.column-two li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.column-three {
+    flex: 1;
+}
+
+.brandsNameHolder {
+    display: flex;
+    gap: 1em;
+    font-weight: unset;
+}
+
+.brandsNameHolder li:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.column-four {
+    flex: 1;
+}
+
+.column-four div {
+    height: 1.5em;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+
+    textarea {
+        resize: none;
+    }
+
+
+}
+
+.column-four div button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: unset;
+}
+
+.column-four div button:hover {
+    font-weight: bold;
+}

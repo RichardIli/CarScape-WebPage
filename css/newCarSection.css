@@ -1,0 +1,74 @@
+.newCarSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carRow {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    overflow-x: auto;
+    flex: 0 0 auto;
+    width: 100%;
+    gap: 5em;
+}
+
+.carHolder {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    border: 2.5px solid #ccc;
+    border-radius: 10px;
+    padding: 1em;
+    width: 100%;
+}
+
+.carImageHolder {
+    width: 50em;
+    height: auto;
+    flex: 1;
+}
+
+.carImage {
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin: 10px;
+    padding: 5px;
+}
+
+.carIdHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    gap: 2em;
+
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+.viewDetailsBtn {
+    border: none;
+    border-radius: 2.5px;
+    font-size: medium;
+    padding: 1.5em 3.5em;
+    color: white;
+    background-color: #4e4ffa;
+    transition: background-color .5s ease-in-out;
+}
+
+.viewDetailsBtn:hover{
+    background-color: #0102fa;
+}

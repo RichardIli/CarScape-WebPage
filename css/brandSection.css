@@ -1,0 +1,6 @@
+.brand-section ul {
+    display: flex;
+    list-style-type: none;
+    overflow-x: auto;
+    justify-content: space-between;
+}

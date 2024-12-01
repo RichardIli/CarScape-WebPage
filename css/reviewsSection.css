@@ -1,0 +1,44 @@
+.reviewsSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.removePaddingMargin {
+    padding: 0;
+    margin: 0;
+}
+
+.customerRow {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    width: 100%;
+    gap: 1em;
+}
+
+.customerCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding: 1em;
+    background-color: white;
+    color: black;
+    transition: background-color .5s ease-in-out, color .5s ease-in-out;
+    flex: 1;
+}
+
+.customerCard img {
+    height: 4em;
+    width: 4em;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.customerCard:hover {
+    background-color: #4e4ffa;
+    color: white;
+}

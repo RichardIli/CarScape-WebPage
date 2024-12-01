@@ -1,0 +1,42 @@
+.header-navbar {
+    padding: .5em 5em;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+}
+
+.header-navbar .scrolled {
+    background-color: black;
+}
+
+.logo {
+    height: 24px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 15px 20px;
+}
+
+.navbar a:hover {
+    color: #4e4ffa;
+}

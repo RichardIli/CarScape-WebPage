@@ -1,0 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: "Lato"
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: large;
+}
+
+.white-font {
+    color: white;
+}
+
+.wrap {
+    margin: 0em 5em;
+    padding-bottom: 10em;
+}
+
+.sectionTitleCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5em;
+
+    h1 {
+        margin: .5em;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    div {
+        margin-top: 5px;
+        width: 10%;
+        height: 3px;
+        background-color: #4e4ffa;
+    }
+}
+
+.fab {
+    margin: 2em;
+    height: 4em;
+    width: 4em;
+    background-color: #4e4ffa;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-weight: lighter;
+    transition: background-color .5s ease-in-out, font-weight .5s ease-in-out;
+}
+
+.fab:hover {
+    background-color: #0102fa;
+    font-weight: bold;
+}
